@@ -45,7 +45,7 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler)
 
-console.log("hello srver.js")
+
 
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB')
